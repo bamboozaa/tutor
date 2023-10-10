@@ -1,0 +1,82 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+body{
+  	font-family: 'Prompt'; 
+  	font-size: 15px;
+  	padding-top: 10px;
+	/*background-image: url("../images/UTCC-Start-Up-Camp.png");	*/
+	background:#FFF;
+	background-position: top center;
+	background-repeat: repeat-x;
+    background-attachment: fixed;
+}/*
+#body{
+	background-image: url("../images/bg.png");	
+	background-size: auto 100%; 
+	background-position: top center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+#content {
+	left: 0;
+	width: 100%;
+}
+
+/*
+.navbar{
+	height:80px;
+	/*background-image: url("../images/menu.jpg");	
+	background-color:#FFF;
+}
+.navbar {
+    padding: 0;
+    transition: background 0.5s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+	background-color:#FFF;
+	height:60px;
+}
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 12px;
+    line-height: 2px;
+    padding: 2px;
+}*/
+.navbar-fixed-top {
+    min-height: 80px;
+	float: center;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 55px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+ .navbar { background-color:#FFF;  }
+ .navbar .navbar-brand{ padding: 0px 0px;font-size: 16px;line-height: 20px;height: 80px; }
+
+/*
+ .navbar { min-height:55px; background-color:#FFF;   }
+ .navbar .navbar-nav > li > a {  padding-top: 10px; padding-bottom: 0px; line-height: 20px; }
+ .navbar .navbar-toggle {  margin-top: 3px; margin-bottom: 0px; padding: 8px 9px; }
+ .navbar .navbar-form { margin-top: 2px; margin-bottom: 0px }
+ .navbar .navbar-collapse {border-color: #A40303;}
+ 
+ .tab-pane {
+
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+} */
